@@ -1,6 +1,19 @@
 # QD
 A double-double and quad-double package for Fortran and C++
 
+## End-user documentation
+
+For historical reasons, the original user-focused documentation is
+located in the `README` file, sans the `.md` extension. In-depth
+technical documentation is also provided, as `docs/qd.pdf` in the
+release tarballs. To build the PDF from its LaTeX sources, run
+
+```
+$ make -C docs qd.pdf
+```
+
+after installing the necessary LaTeX bits on your system.
+
 ## Tips for developers
 
 Before you can build QD from the git repository, you will likely have
