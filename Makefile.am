@@ -5,7 +5,7 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = qd.pc
 
 BUILT_SOURCES = docs/qd.pdf
-dist_doc_DATA = README docs/qd.pdf
+dist_doc_DATA = README README.md docs/qd.pdf
 dist_noinst_DATA = docs/Makefile \
   docs/qd.tex docs/qd.bib \
   docs/nine-two-sum.eps docs/nine-two-sum.fig \
